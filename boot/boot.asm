@@ -4,10 +4,6 @@ use16
  
 start:
 	
-	xor	bx, bx		; A faster method of clearing BX to 0
-	mov	ah, 0ah
-	mov	al, 'A'
-	int	10h 
 	cli
 	hlt
 	
